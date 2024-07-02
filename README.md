@@ -58,7 +58,11 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Test
+## Run
+1. create an .env file and up it the necessary keeps for your database credentials.
+2. You can use the data folder to run a basic insert into a DB if you want to run locally
+3. You should have a UI/front-end to plug the API too.  
+
 
 A simple pos-system for crypto currency.
 
