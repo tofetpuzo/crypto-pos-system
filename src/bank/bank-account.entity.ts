@@ -15,4 +15,10 @@ export class BankAccount {
 
   @Column()
   bankName: string;
+
+  @Column()
+  accountType: string;
+
+  @Column()
+  balance: number;
 }
