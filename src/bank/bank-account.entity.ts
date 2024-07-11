@@ -21,4 +21,7 @@ export class BankAccount {
 
   @Column()
   balance: number;
+
+  @Column()
+  uuid: number
 }
