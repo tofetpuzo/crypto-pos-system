@@ -39,7 +39,7 @@ export class CryptoPaymentService {
       throw new Error('Error initiating payment: ' + error.message);
     }
   }
-
+  // handle payment confirmation
   async handlePaymentConfirmation(event: any) {
     // Process payment confirmation
 
